@@ -8,7 +8,7 @@ import type { SlideDef } from '../lib/types'
 
 function Capa() {
   return (
-    <div className="relative flex h-full w-full flex-col justify-between overflow-hidden bg-ink-950 px-6 py-8 md:px-24 md:py-20">
+    <div className="relative flex h-full min-h-[calc(100dvh-110px)] w-full flex-col justify-between gap-8 overflow-hidden bg-ink-950 px-8 py-12 md:min-h-0 md:gap-0 md:px-24 md:py-20">
       <div className="pointer-events-none absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_at_right,black,transparent_65%)]" />
       {/* Cantos de visor, como na logo */}
       <div className="pointer-events-none absolute top-6 left-6 h-10 w-10 border-t-[3px] border-l-[3px] border-accent md:top-10 md:left-10 md:h-14 md:w-14" />
@@ -25,10 +25,10 @@ function Capa() {
 
       <div className="relative grid items-center gap-8 md:grid-cols-[1fr_380px]">
         <div className="stagger">
-          <p className="text-lg font-medium tracking-[0.3em] text-ink-200 uppercase md:text-3xl">
+          <p className="text-sm font-medium tracking-[0.2em] text-ink-200 uppercase md:text-3xl md:tracking-[0.3em]">
             Transmissão <CreativeWord />
           </p>
-          <h1 className="mt-3 text-5xl leading-[0.95] font-bold tracking-tight text-accent md:mt-5 md:text-[132px]">
+          <h1 className="mt-3 text-[40px] leading-[0.95] font-bold tracking-tight text-accent sm:text-6xl md:mt-5 md:text-[132px]">
             TRANSMISSÃO
             <br />
             <span className="text-ink-100">AO VIVO</span>

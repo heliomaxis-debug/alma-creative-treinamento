@@ -123,7 +123,7 @@ function Avaliacao() {
 
 function Encerramento() {
   return (
-    <div className="relative flex h-full w-full flex-col justify-between overflow-hidden bg-ink-950 px-6 py-8 md:px-24 md:py-20">
+    <div className="relative flex h-full min-h-[calc(100dvh-110px)] w-full flex-col justify-between gap-8 overflow-hidden bg-ink-950 px-8 py-12 md:min-h-0 md:gap-0 md:px-24 md:py-20">
       <div className="pointer-events-none absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_at_center,black,transparent_65%)]" />
       <div className="pointer-events-none absolute top-6 left-6 h-10 w-10 border-t-[3px] border-l-[3px] border-accent md:top-10 md:left-10 md:h-14 md:w-14" />
       <div className="pointer-events-none absolute top-6 right-6 h-10 w-10 border-t-[3px] border-r-[3px] border-accent md:top-10 md:right-10 md:h-14 md:w-14" />
